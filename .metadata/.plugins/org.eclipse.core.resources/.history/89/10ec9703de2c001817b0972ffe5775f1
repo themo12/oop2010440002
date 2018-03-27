@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Six {
+
+	public static void main(String[] args) {
+		System.out.println("6번 문제");
+		// 6. 어떤 두 자리 수의 자릿수의 순서를 서로 바꾸는 프로그램을 작성하시오.
+		//    사용자 입력 : 한 개의 두 자리 정수
+		//    출력 : 자릿수의 순서가 반대로 된 정수
+
+		int a; // 하나의 변수 선언 
+		int x;
+		int y;
+		int t; // x:입력한 정수의 10의 자리 수를 위한 변수, y:입력한 정수의 1의 자리 수를 위한 변수, t:temporary 변수
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("두 자리 수의 정수를 입력하시오 : ");
+		a = input.nextInt(); // 키보드에서 숫자 입력
+		
+		if (a/10 != 0) {
+			if (a%10 != 0) {
+				x = a%10;
+				y = a/10;
+			}
+			else {
+				x = 0;
+				y = a/10;
+			}
+			System.out.println("입력한 두 자리 수의 자릿수의 순서를 바꾼 숫자는 : " + x + y);
+		}
+		else if (a/100 != 0)
+			System.out.println("두 자리 수의 정수가 아닙니다.");
+		
+		System.out.println("==============프로그램 종료==============");
+
+	}
+
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Fifteen {
+
+	public static void main(String[] args) {
+		System.out.println("15번 문제");
+		// 15. 
+
+		System.out.println("==============프로그램 종료==============");
+	}
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Seven {
+
+	public static void main(String[] args) {
+		System.out.println("7번 문제");
+		// 7. 0이 입력될 때까지 계속 정수를 입력 받고, 입력된 모든 숫자들의 총합을 출력하시오.
+
+		int x;
+		int y = 0;
+		
+		while (x != 0) {
+			Scanner input = new Scanner(System.in);
+			System.out.print("Enter your choice here : ");
+			x = input.nextInt(); // 키보드에서 메뉴 입력
+			
+			y = y + x;
+		}	
+		System.out.println(y);
+		
+		System.out.println("==============프로그램 종료==============");
+	}
+
+}

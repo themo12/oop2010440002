@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Thirteen {
+
+	public static void main(String[] args) {
+		System.out.println("13번 문제");
+		// 13. month와 day를 입력 받아, 1월 1일부터의 총 day수를 출력하는 프로그램을 작성하시오. (switch문 사용)
+		//     1월 20일은 20일 출력, 2월 5일은 36일 출력. 단 2월은 28일로 계산.
+		// 1월, 3월, 5월, 7월, 8월, 10월, 12월 : 31일
+		// 2월 : 28일
+		// 4월, 6월, 9월, 11월 : 30일
+		
+		int month; // 월 입력을 위한 변수 선언
+		int day; // 일 입력을 위한 변수 선언
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("month를 입력하세요. : ");
+		month = input.nextInt(); // 키보드에서 숫자 입력
+		System.out.print("day를 입력하세요. : ");
+		day = input.nextInt(); // 키보드에서 숫자 입력
+		
+		switch (month) {
+		case 1:
+			System.out.println(month + "월 " + day +"일까지의  총 day 수 = " + day);
+		case 2:
+			System.out.println(month + "월 " + day +"일까지의  총 day 수 = " + (31+day));
+		}
+		
+		System.out.println("==============프로그램 종료==============");
+	}
+}

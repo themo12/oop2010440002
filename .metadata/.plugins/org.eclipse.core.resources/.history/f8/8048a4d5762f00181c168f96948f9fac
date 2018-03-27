@@ -1,0 +1,55 @@
+
+public class Twentyfive {
+
+	public static void main(String[] args) {
+		System.out.println("25번 문제");
+		// 25.다음과 같은 출력이 나오도록 프로그램을 작성하시오.
+		//    (1) *********** (2)54321012345
+		//        *********      432101234
+		//        *******        3210123
+		//        *****          21012
+		//        ***            101
+		//        *              0
+		//        ***            101 
+		//        *****          21012 
+		//        *******        3210123 
+		//        *********      432101234 
+		//        ***********    54321012345
+		
+		int i;
+		int a;
+		System.out.println("(1)번 출력");
+		a=12;
+		if (a!=2) {
+			while (a>=2) {
+				i=1;
+				while (i<=a) {
+					if (i!=a)
+						System.out.print("*");
+					else
+						System.out.println("");
+
+					i=i+1;
+				}
+				a=a-2;
+			}
+		}
+		else {
+			while (a<=12) {
+				i=1;
+				while (i<=a) {
+					if (i!=a)
+						System.out.print("*");
+					else
+						System.out.println("");
+					
+					i=i+1;
+				}
+				a=a+2;
+			}
+			
+		}
+		System.out.println("==============프로그램 종료==============");
+	}
+
+}

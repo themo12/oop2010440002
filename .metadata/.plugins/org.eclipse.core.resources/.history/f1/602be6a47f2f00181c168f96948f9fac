@@ -1,0 +1,61 @@
+
+public class Twentyfive {
+
+	public static void main(String[] args) {
+		System.out.println("25번 문제");
+		// 25.다음과 같은 출력이 나오도록 프로그램을 작성하시오.
+		//    (1) *********** (2)54321012345
+		//        *********      432101234
+		//        *******        3210123
+		//        *****          21012
+		//        ***            101
+		//        *              0
+		//        ***            101 
+		//        *****          21012 
+		//        *******        3210123 
+		//        *********      432101234 
+		//        ***********    54321012345
+		
+//		int a, b, num, c, d;
+//		num=5;
+//		for(a=1,b=0; a<=num+1; a++,b++) {
+//			for(d=1,c=b; d<=a; d++,c--)
+//				System.out.print(c);
+//			for(d=1; d<a; d++)
+//				System.out.print(d);
+//			
+//			System.out.println("");
+//		}
+		
+		
+		int row;
+		int column;
+		int space;
+		for(row=5; row>0; row--) {
+			for(space=row; space<5; space++)
+				System.out.print(" ");
+			for(column=row; column>=0; column--)
+				System.out.print(column);
+			for(column=1; column<=row; column++)
+				System.out.print(column);
+			System.out.println("");
+		}
+		
+		for(row=0; row<=5; row++) {
+			for(space=row; space<5; space++)
+				System.out.print(" ");
+			for(column=row; column>=0; column--)
+				System.out.print(column);
+			for(column=1; column<=row; column++)
+				System.out.print(column);
+			System.out.println("");
+		}
+		
+		System.out.println("==============프로그램 종료==============");
+	}
+
+}
+
+
+
+

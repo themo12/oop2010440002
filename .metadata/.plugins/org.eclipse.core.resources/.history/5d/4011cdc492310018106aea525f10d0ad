@@ -1,0 +1,11 @@
+
+public class TestString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// string 객체 생성
+		String str; // string을 참조하는 참조 변수(reference 변수) 생성
+		str = new String("Hello darkness my old frined.");
+	}
+
+}
