@@ -9,14 +9,18 @@ public class TestString {
 		String str; // class string의 객체를 참조할 수 있는 참조 변수(reference 변수) 생성
 		// String은 class 이름
 		// str은 reference 변수 (c언어에서의 포인터)		
-		// int a; 와 달리 String str; 은 c언어에서의 포인터와 같다 생각하면 된다. 
+		// int a; 와 달리 String str; 은 c언어에서의 포인터와 같다 생각하면 된다.
+		// 이때 객체가 생성되는 것이 아니라 밑에서 객체 생성
+		// 전하번호(주소)의 저장소를 확보하는 단계
 		
-		str = new String("Hello darkness my old frined."); // 객체 생성
+		str = new String("Hello darkness my old frined.");
+		// 1.객체 생성
+		// 2.객체의 Reference 반환
 		// Heap 영역의 String 객체를 Stack 영역의 str 변수가 참조하는 것.
 		
+		int len = str.length();
 		// String 객체의 길이
 		// 메소드 호출 방법 : 참조변수.메소드()
-		int len = str.length();
 	
 		System.out.println("string length is " + len);
 		
