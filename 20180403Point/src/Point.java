@@ -2,8 +2,27 @@
 
 public class Point {
 	// 필드의 scope(유효범위)은 class 내부이다.
-	public double x; // 필드
-	public double y; // 필드
+	private double x; // 필드
+	private double y; // 필드
+	
+	
+	// 설정자 : 필드의 값을 설정하는 메소드 (필드의 private 속성을 public으로 바꿈)
+	public void setX(double xx) {
+		this.x = xx;
+		xx = 100.0;
+	}
+	public void setY(double yy) {
+		this.y = yy;
+	}
+	
+	// 접근자 : 필드의 값을 반환하는 메소드
+	public double getX() {
+		return x;
+	}
+	public double getY() {
+		return y;
+	}
+	
 	
 	// ex) 원점에서 어떤 포인트 위치까지 길이 구할 때
 	//	C언어 : 길이 = distance(p);
