@@ -8,7 +8,7 @@ public class Point {
 	
 	// 설정자 : 필드의 값을 설정하는 메소드 (필드의 private 속성을 public으로 바꿈)
 	public void setX(double xx) {
-		this.x = xx;
+		this.x = xx; // this. 는 뒤에 나오는 변수가 필드라는 것을 강조하기 위함
 		xx = 100.0;
 	}
 	public void setY(double yy) {

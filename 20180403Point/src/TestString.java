@@ -12,10 +12,12 @@ public class TestString {
 		// 하지만 그 객체가 완전히 지워진 것은 아님
 		// 따라서	Java virtual machine이 알아서 garbage collection 해 줌, 즉 그 객체를 지워줌
 		
-		// false인 이유는 str1과 str2가 참조하는 객체가 다르기 때문이다
+
+		System.out.println(str1==str2);
 		// 5번줄에서 String 객체가 생성되고 str1이 그것을 참조
 		// 6번줄에서 또다른 String 객체가 생성되고 str2가 그것을 참조
-		System.out.println(str1==str2);
+		// false인 이유는 str1과 str2가 참조하는 객체가 다르기 때문이다
+		
 		
 		// equals() 메소드는 참조하는 객체의 내용이 같은지를 비교하는 것이기 때문에 true
 		System.out.println(str1.equals(str2));

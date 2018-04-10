@@ -14,6 +14,7 @@ public class Test {
 		// setX : 설정자
 		p.setX(temp); // 접근자를 사용한 필드값 설정
 		System.out.println("temp=" + temp);
+		
 		System.out.println(p.getX());
 		p.setY(temp);
 		
