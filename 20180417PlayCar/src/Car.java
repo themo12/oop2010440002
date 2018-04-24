@@ -23,7 +23,7 @@ public class Car {
 	// Method
 	public static void print() {
 		// 정적 메소드는 어떤 객체의 필드에 접근하지 못한다. 즉, 정적 메소드는 정적 변수만 접근할 수 있다. 또한 정적 메소드에서는 다른 정적 메소드만 접근할 수 있다.(인스턴스 메소드는 호출 못함)
-//		System.out.println(this.color + ", " + this.speed); // error
+//		System.out.println(this.color + ", " + this.speed); // error : 인스턴스 메소드는 호출 못하기 때문에
 		System.out.println(numberOfCars);
 	}
 	public String toString() {

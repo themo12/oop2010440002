@@ -9,10 +9,9 @@ public class TestString {
 		// 따라서 15번 줄의 str1==str2가 true로 바뀜 
 //		str1 = str2;
 		// 이전의 str1이 참조하고있던 String 객체는 접근 불가능. 즉, 다시 그 객체를 참조 불가능. garbage 됨.
-		// 하지만 그 객체가 완전히 지워진 것은 아님
+		// 하지만 그 객체가 완전히 지워진 것은 아님(Heap 영역)
 		// 따라서	Java virtual machine이 알아서 garbage collection 해 줌, 즉 그 객체를 지워줌
 		
-
 		System.out.println(str1==str2);
 		// 5번줄에서 String 객체가 생성되고 str1이 그것을 참조
 		// 6번줄에서 또다른 String 객체가 생성되고 str2가 그것을 참조

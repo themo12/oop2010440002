@@ -11,7 +11,7 @@ public class TestPoint {
 //		pnt2.print(); // print method 내부의 this는 pnt2를 의미
 //		String str = pnt1.toString();
 //		System.out.println(str);
-//		System.out.println(pnt1);
+		System.out.println(pnt1);
 		// pnt1는 string이 아니기 때문에 java에서 알아서 toString()을 부른다
 		
 		System.out.println(pnt2);
