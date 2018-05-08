@@ -5,4 +5,7 @@ public class Rosemary extends kbm1.Dog {
 		// Error packageField = "packagerosemary";
 		protectedField = "test";
 	}
+	public String getprotectedField () {
+		return protectedField;
+	}
 }

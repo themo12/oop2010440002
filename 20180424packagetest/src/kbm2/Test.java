@@ -22,6 +22,7 @@ public class Test {
 //		aa.protectedField = "ddd"; Error : 즉 protected는 같은 패키지 내에서는 public처럼, 다른 패키지에서는 private 처럼(단, 상속은 된다.)
 		
 		Rosemary rr = new Rosemary();
+		System.out.println(rr.getprotectedField()); // protected는 다른 패키지여도 private으로 상속이 가능하기 때문에 get함수를 사용하여 사용 가능하다.
 		
 	}
 
