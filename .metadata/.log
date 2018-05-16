@@ -660,3 +660,24 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
 	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:20.848
+!MESSAGE The POM for org.apache.commons:commons-dbcp2:jar:2.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:21.235
+!MESSAGE The POM for org.apache.commons:commons-pool2:jar:2.4.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:54.050
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:55.189
+!MESSAGE The POM for org.apache.commons:commons-dbcp2:jar:2.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:55.199
+!MESSAGE The POM for org.apache.commons:commons-pool2:jar:2.4.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:57.344
+!MESSAGE The POM for org.apache.commons:commons-dbcp2:jar:2.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-16 16:20:57.356
+!MESSAGE The POM for org.apache.commons:commons-pool2:jar:2.4.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
