@@ -138,3 +138,5 @@
 2018-05-16 16:20:57,343 [Worker-214] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp2:jar:2.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 2018-05-16 16:20:57,354 [Worker-214] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-pool2:jar:2.4.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 2018-05-16 22:54:55,550 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-05-21 14:21:05,243 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-05-22 01:05:23,977 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
