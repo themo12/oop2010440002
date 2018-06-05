@@ -13,7 +13,7 @@ public class Test {
 //		i = 3;
 		i = new Integer(3);
 		System.out.println(i);
-//		i = 1 + box.get();
+//		i = 1 + box.get(); // error : i는 Integer 객체를 참조, i의 type은 int이기 때문에 Object type과 + 연산 x 
 		System.out.println("the box contains " + box.get());
 		int a = 10;
 		box.set(a); // primitive type인 a를 Object 매개변수로 받기 위해 Integer class(reference type)으로 자동 변환 시켜준다(Autoboxing)

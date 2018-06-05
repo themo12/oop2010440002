@@ -8,6 +8,7 @@ public class TestAnimal {
 		dog.sing();
 		Cat cat = new Cat("³ªºñ");
 		cat.sing();
+		
 	}
 	
 }

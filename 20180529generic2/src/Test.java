@@ -10,7 +10,6 @@ public class Test {
 		
 		Box<Integer> ibox = new Box<Integer>(); // Box class¿« <T>∞° <Integer>∑Œ
 		Integer i = new Integer(10);
-		
 		ibox.set(i);
 //		ibox.set(new String("Koo")); // error
 		System.out.println(100 + ibox.get());
