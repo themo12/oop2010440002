@@ -5,7 +5,7 @@ public class Test {
 		Animal aDog = new Dog("Tina"); // Upcasting
 		Animal aCat = new Cat("망고"); // Upcasting
 		aDog.sing();
-//		aDog.playFetch(); // error : aDog 클래스의 class type은 부모 클래스인 Animal인데 playFetch()는 자식 클래시인 Dog 클래스의 method이므로 에러
+//		aDog.playFetch(); // error : aDog 클래스의 class type은 부모 클래스인 Animal인데 playFetch()는 자식 클래스인 Dog 클래스의 method이므로 에러
 		((Dog) aDog).playFetch(); // Downcasting 후 에러 없어짐
 //		((Cat) aCat).playFetch(); // error : Cat 클래스에는 playFetch() method가 없으므로
 		

@@ -11,8 +11,8 @@ public class AnimalSing {
 	void sing() {
 		Animal ele;
 		Iterator<Animal> e = list.iterator();
-		while(e.hasNext()) {
-			ele = e.next();
+		while(e.hasNext()) { // hasNext() : 아직 방문하지 않은 원소가 있으면 true 반환
+			ele = e.next(); // next() : 다음 원소를 반환
 			ele.sing(); // polymorphism. c에서는 if문을 써서 복잡하게 풀어써야한다
 		}
 	}
